@@ -1,27 +1,27 @@
-.navbar-home {
+.navbar {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    top:10px; left:0;
+    position: relative;
     width:100%;
+    height:83px;
+    background-color:white;
     z-index:1;
 }
 .navbar-link {
     display: flex;
-    color:white;
-    font-size:18px;
+    color:black;
+    font-size:17px;
     font-weight:500;
     text-decoration: none;
-    text-shadow:0 1px 0 RGBA(0,0,0,.3);
-    margin:0 30px;
+    text-shadow:transparent;
+    margin:0 34px;
 }
 .navbar-logo {
     display: flex;
-    width:120px;
-    margin:0 22px;
-    filter: brightness(0) invert(1);
+    width:76px;
+    margin:0 25px;
 }
 .navbar-home .navbar-logo {
     filter: brightness(0) invert(1);

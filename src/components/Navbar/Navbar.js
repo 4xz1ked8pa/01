@@ -6,7 +6,7 @@ import logo from '../../assets/img/logos/logo.png';
 
 const Navbar = createClass({
     render() {
-        var classes = 'navbar-home';
+        var classes = 'navbar';
         return (
             <div className={`${classes}`}>
                 <Link to={`/about`} className='navbar-link'>About</Link>

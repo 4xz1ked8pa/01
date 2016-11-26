@@ -9,7 +9,7 @@ const About = createClass({
         return (
             <main id='about'>
                 <Navbar />
-                About
+
                 <Footer />
             </main>
         );

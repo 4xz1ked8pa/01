@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom';
 import {Router, Route, browserHistory, IndexRoute} from 'react-router';
 import App from './App';
 import './assets/css/reset.css';
+import './assets/css/settings.css';
 import './assets/css/grid.css';
 import './assets/css/fonts.css';
 
