@@ -41,7 +41,9 @@
 .social-link {
     display: flex;
     flex-direction: row;
+    color:black;
     font-size:18px;
+    text-decoration: none;
     margin-left:18px;
 }
 
