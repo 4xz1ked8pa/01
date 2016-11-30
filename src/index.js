@@ -3,6 +3,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {Router, Route, browserHistory, IndexRoute} from 'react-router';
 import App from './App';
+import './assets/css/vendors/tabs.css';
 import './assets/css/reset.css';
 import './assets/css/settings.css';
 import './assets/css/grid.css';
