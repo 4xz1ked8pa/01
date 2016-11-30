@@ -11,12 +11,14 @@ import './assets/css/fonts.css';
 /* components */
 import Home from './pages/Home/Home';
 import About from './pages/About/About';
+import Services from './pages/Services/Services';
 
 ReactDOM.render(
   <Router history={browserHistory}>
     <Route path='/' component={App}>
       <IndexRoute component={Home} />
       <Route path='/about' component={About} />
+      <Route path='/services' component={Services} />
     </Route>
   </Router>,
   document.getElementById('root')

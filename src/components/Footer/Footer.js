@@ -9,11 +9,11 @@ const Footer = createClass({
                 <div className='footer-items'>
                     <div className='page-links'>
                         <Link to={`/about`} className='page-link'>About</Link>
-                        <Link to={`/clients`} className='page-link'>Clients</Link>
                         <Link to={`/services`} className='page-link'>Services</Link>
-                        <Link to={`/gallery`} className='page-link'>Gallery</Link>
-                        <Link to={`/shop`} className='page-link'>Shop</Link>
+                        <a href='https://www.shopify.com/' className='navbar-link'>Shop</a>
+                        <Link to={`/gardens`} className='page-link'>Gardens</Link>
                         <Link to={`/partners`} className='page-link'>Partners</Link>
+                        <Link to={`/gallery`} className='page-link'>Gallery</Link>
                         <Link to={`/contact`} className='page-link'>Contact</Link>
                         <Link to={`/fr/`} className='page-link'>Français</Link>
                     </div>

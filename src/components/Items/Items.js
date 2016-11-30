@@ -12,6 +12,7 @@ const Items = createClass({
                             <li className='item'>
                                 <img className='item-image' src={item.image} />
                                 <h3 className='item-title'>{item.title}</h3>
+                                <h3 className='item-description'>{item.description}</h3>
                             </li>
                         );
                     })
