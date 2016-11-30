@@ -2,7 +2,7 @@ import React, {createClass} from 'react';
 import './Home.css';
 
 import Navbar from '../../components/Navbar/Navbar';
-import Footer from '../../components/Footer/Footer';
+import Footer_Home from '../../components/Footer/Footer_Home';
 
 const Home = createClass({
     render() {
@@ -16,7 +16,7 @@ const Home = createClass({
                     <button>LEARN MORE</button>
                 </div>
                 <iframe src="https://player.vimeo.com/video/167170153?autoplay=1&amp;loop=1&amp;byline=0&amp;title=0" frameborder="0"></iframe>
-                <Footer />
+                <Footer_Home />
             </main>
         );
     }
