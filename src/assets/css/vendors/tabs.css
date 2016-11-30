@@ -1,0 +1,27 @@
+.site-side-tabs {
+    flex-direction: row;
+    justify-content: flex-start;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+}
+.site-side-tabs .ReactTabs__TabList {
+    position: absolute;
+    top: 0;
+    left: 0;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 190px;
+    padding-left: 15px;
+}
+.site-side-tabs .ReactTabs__TabList .ReactTabs__Tab {
+    padding: 8px 10px 8px 0;
+    margin-bottom: 6px;
+}
+.site-side-tabs .ReactTabs__TabList .ReactTabs__Tab:first-child {
+    padding-top: 0;
+}
+.site-side-tabs .ReactTabs__TabPanel {
+    width: 100%;
+    padding-left: 190px;
+}

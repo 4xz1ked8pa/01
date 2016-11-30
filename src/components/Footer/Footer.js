@@ -10,7 +10,7 @@ const Footer = createClass({
                     <div className='page-links'>
                         <Link to={`/about`} className='page-link'>About</Link>
                         <Link to={`/services`} className='page-link'>Services</Link>
-                        <a href='https://www.shopify.com/' className='navbar-link'>Shop</a>
+                        <a href='https://www.shopify.com/' className='page-link'>Shop</a>
                         <Link to={`/gardens`} className='page-link'>Gardens</Link>
                         <Link to={`/partners`} className='page-link'>Partners</Link>
                         <Link to={`/gallery`} className='page-link'>Gallery</Link>
