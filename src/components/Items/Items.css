@@ -20,6 +20,7 @@
 /* Item Image */
 .item-image {
     width:100%;
+    box-shadow:0 1px 4px RGBA(0,0,0,.29);
 }
 
 /* Item Title */
@@ -34,14 +35,20 @@
 @media (max-width:768px) {
     .items {
         flex-direction:column;
+        padding-left:var(--row-gutter);
+        padding-right:var(--row-gutter);
     }
     .item {
         width:100%;
+        margin-bottom:40px;
     }
     .item:nth-child(1) {
         padding-right:0;
     }
     .item:nth-child(2) {
         padding-left:0;
+    }
+    .item-title {
+        font-size:19px;
     }
 }

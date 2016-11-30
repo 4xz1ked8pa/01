@@ -14,7 +14,7 @@ const Navbar = createClass({
                 <Link to={`/services`} className='navbar-link'>Services</Link>
                 <Link to={`/gallery`} className='navbar-link'>Gallery</Link>
                 <Link to={`/`}>
-                    <img src={`${logo}`} className='navbar-logo'/>
+                    <img src={`${logo}`} className='navbar-logo desktop-logo'/>
                 </Link>
                 <Link to={`/shop`} className='navbar-link'>Shop</Link>
                 <Link to={`/partners`} className='navbar-link'>Partners</Link>

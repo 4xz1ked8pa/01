@@ -13,10 +13,20 @@ html body #root .App {
 .section {
     max-width: var(--row-width);
     min-height:100%;
-    padding-top:36px;
+    padding-top:38px;
     padding-bottom:200px;
     margin:0 auto;
 }
 *  {
     box-sizing: border-box;
+}
+
+@media (max-width:768px) {
+    .App {
+        background-color: RGBA(0,0,0,.045);
+    }
+    .section {
+        padding-top:20px;
+        padding-bottom:50px;
+    }
 }

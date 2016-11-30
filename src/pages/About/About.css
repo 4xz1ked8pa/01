@@ -19,9 +19,14 @@
 }
 .h_iframe iframe {
     position:absolute;top:0;left:0;width:100%; height:100%;
+    box-shadow:0 1px 4px RGBA(0,0,0,.29);
 }
 
-/* Team */
-#about .items {
-    /*margin-top:20px;*/
+@media (max-width:768px) {
+    .h_iframe {
+        padding-left:var(--row-gutter);
+        padding-right:var(--row-gutter);
+        margin-top:80px;
+        margin-bottom:80px;
+    }
 }

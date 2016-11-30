@@ -16,3 +16,9 @@
     display:flex;
 
 }
+
+@media (max-width:768px) {
+    .paragraph {
+        font-size:15px;
+    }
+}

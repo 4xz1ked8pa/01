@@ -8,6 +8,7 @@
     width:100%;
     height:83px;
     background-color:white;
+    box-shadow:0 1px 4px RGBA(0,0,0,.01);
     z-index:1;
 }
 
@@ -16,7 +17,7 @@
     display: flex;
     color:black;
     font-size:17px;
-    font-weight:300;
+    font-weight:400;
     text-decoration: none;
     margin:0 34px;
 }
@@ -34,11 +35,23 @@
 /* Mobile */
 @media (max-width:768px) {
     .navbar {
+        flex-direction:row;
+        flex-wrap:wrap;
+        justify-content:center;
+        position: relative;
         height:auto;
-        flex-direction:column;
+        background-color: transparent;
+        padding:110px 5px 10px 5px;
     }
     .navbar-link {
-        width:100%;
-        text-align:center;
+        font-size:18px;
+        font-weight:400;
+        margin:0 9px 10px 9px;
+    }
+    .navbar-logo {
+        position: absolute;
+        top:11px; left:50%;
+        transform:translate(-50%, 0);
+        margin:0;
     }
 }

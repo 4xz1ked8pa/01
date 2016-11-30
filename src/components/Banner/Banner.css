@@ -11,7 +11,7 @@
     color:white;
     border-radius:1px;
     margin-bottom:70px;
-    box-shadow:0 1px 4px RGBA(0,0,0,.23);
+    box-shadow:0 1px 4px RGBA(0,0,0,.29);
 }
 
 /* Banner Title */
@@ -47,12 +47,16 @@
 
 @media (max-width:768px) {
     .banner {
-        
+       height:180px;
+       margin-bottom:25px;
     }
     .banner-title {
        font-size:20px;
     }
     .banner-description {
-       font-size:16px;
-    } 
+       font-size:17px;
+    }
+    .banner-filter {
+        background-color: RGBA(0,0,0,.3)
+    }
 }
