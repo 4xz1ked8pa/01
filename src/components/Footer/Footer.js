@@ -18,12 +18,8 @@ const Footer = createClass({
                         <Link to={`/fr/`} className='page-link'>Français</Link>
                     </div>
                     <div className='social-links'>
-                        <a to={`https://www.facebook.com/microhabitatmtl/`} className='social-link'>
-                            <img className='social-icon' src='https://www.placehold.it/25x25' />
-                        </a>
-                        <a to={`https://www.instagram.com/microhabitatmtl/`} className='social-link'>
-                            <img className='social-icon' src='https://www.placehold.it/25x25' />
-                        </a>
+                        <a to={`https://www.facebook.com/microhabitatmtl/`} className='social-link fa fa-facebook'></a>
+                        <a to={`https://www.instagram.com/microhabitatmtl/`} className='social-link fa fa-instagram'></a>
                     </div>
                 </div>
             </div>

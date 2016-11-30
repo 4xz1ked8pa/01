@@ -1,3 +1,4 @@
+/* Navbar */
 .navbar {
     display: flex;
     flex-direction: row;
@@ -9,15 +10,18 @@
     background-color:white;
     z-index:1;
 }
+
+/* Navbar Link */
 .navbar-link {
     display: flex;
     color:black;
     font-size:17px;
-    font-weight:500;
+    font-weight:300;
     text-decoration: none;
-    text-shadow:transparent;
     margin:0 34px;
 }
+
+/* Navbar Logo */
 .navbar-logo {
     display: flex;
     width:76px;
@@ -25,4 +29,16 @@
 }
 .navbar-home .navbar-logo {
     filter: brightness(0) invert(1);
+}
+
+/* Mobile */
+@media (max-width:768px) {
+    .navbar {
+        height:auto;
+        flex-direction:column;
+    }
+    .navbar-link {
+        width:100%;
+        text-align:center;
+    }
 }

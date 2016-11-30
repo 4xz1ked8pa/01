@@ -13,7 +13,8 @@ html body #root .App {
 .section {
     max-width: var(--row-width);
     min-height:100%;
-    padding-top:31px;
+    padding-top:36px;
+    padding-bottom:200px;
     margin:0 auto;
 }
 *  {

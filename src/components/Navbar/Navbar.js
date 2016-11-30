@@ -2,7 +2,7 @@ import React, {createClass} from 'react';
 import {Link} from 'react-router';
 import './Navbar.css';
 
-import logo from '../../assets/img/logos/logo.png';
+import logo from '../../assets/images/logos/logo.png';
 
 const Navbar = createClass({
     render() {
