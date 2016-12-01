@@ -1,0 +1,83 @@
+/* Services Requirements Table */
+.requirements-table {
+    display:flex;
+    flex-direction:column;
+    width:100%;
+    background-color:RGBA(0, 166, 81, .02);
+    border: 1px solid RGBA(0, 0, 0, .1);
+    border-radius:1px;
+    margin-top:27px;
+}
+
+/* Table Cell */
+.table-cell {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:31px;
+    line-height:31px;
+}
+
+/* Table Title */
+.table-title {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    height:37px;
+    font-size:16px;
+    font-weight:500;
+    line-height:37px;
+    border-bottom: 1px solid RGBA(0, 0, 0, .11);
+}
+
+/* Table Sections */
+.table-sections {
+    display:flex;
+    flex-direction:row;
+}
+
+/* Table Section */
+.table-section {
+    display:flex;
+    flex-direction:column;
+    width:50%;
+    border-left: 1px solid RGBA(0, 0, 0, .13);
+}
+.table-section:nth-child(1) {
+    border-left:none;
+}
+
+/* Section Header */
+.section-header {
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    background-color:RGBA(0,0,0,.04);
+    font-size:13px;
+    font-weight:400;
+}
+.section-header .table-cell {
+    width:33.333%;
+    height:34px;
+    line-height:34px;
+}
+
+/* Section Values */
+.section-values .table-cell {
+    width:33.333%;
+    font-size:13px;
+}
+
+/* Section Row */
+.section-row {
+    display:flex;
+    flex-direction:row;
+    width:100%;
+}
+
+/* Section Total */
+.section-total {
+    background-color:RGBA(0,0,0,.04);
+    font-weight:500;
+}

@@ -17,7 +17,7 @@ export const PanelTitle = createClass({
 export const PanelSubtitle = createClass({
     render() {
         return (
-            <p className='panel-subtitles'>
+            <p className='panel-subtitle'>
                 {this.props.subtitle}
             </p>
         );
