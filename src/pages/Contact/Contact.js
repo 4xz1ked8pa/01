@@ -15,9 +15,7 @@ const Contact = createClass({
                 <Navbar />
                 <div className='section'>
                     <Banner banner={{image: 'https://images.unsplash.com/photo-1468408908883-029a25e230c1?dpr=2&auto=format&fit=crop&w=767&h=362&q=80&cs=tinysrgb&crop=', title: 'GET IN TOUCH', description: 'Feel free to contact our team anytime'}} />
-                    <div className='contact-side'>
-
-                    </div>
+ 
                 </div>
                 <Footer />
             </main>
