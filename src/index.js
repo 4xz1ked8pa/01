@@ -13,6 +13,7 @@ import About from './pages/About/About';
 import Services from './pages/Services/Services';
 import Gardens from './pages/Gardens/Gardens';
 import Partners from './pages/Partners/Partners';
+import Gallery from './pages/Gallery/Gallery';
 
 ReactDOM.render(
   <Router history={browserHistory}>
@@ -22,6 +23,7 @@ ReactDOM.render(
       <Route path='/services' component={Services} />
       <Route path='/gardens' component={Gardens} />
       <Route path='/partners' component={Partners} />
+      <Route path='/gallery' component={Gallery} />
     </Route>
   </Router>,
   document.getElementById('root')

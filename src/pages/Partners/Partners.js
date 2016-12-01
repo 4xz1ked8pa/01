@@ -52,10 +52,10 @@ const Partners = createClass({
                         {
                             partners.map((partner) => {
                                 return (
-                                    <a className='partner-item' href='#'>
-                                        <img src={partner.image} />
-                                        <h1>{partner.title}</h1>
-                                        <h3>{partner.description}</h3>
+                                    <a className='partner' href={partner.link}>
+                                        <div className='partner-image' style={{backgroundImage: `url(${partner.image})`}}></div>
+                                        <h1 className='partner-title'>{partner.title}</h1>
+                                        <h3 className='partner-description'>{partner.description}</h3>
                                     </a>
                                 );
                             })
