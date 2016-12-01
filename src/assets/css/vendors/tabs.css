@@ -61,3 +61,35 @@ li.ReactTabs__Tab ReactTabs__Tab--selected {
     padding:7px 0;
     border:none;
 }
+
+@media (max-width:768px) {
+    .side-tabs {
+        flex-direction: column;
+    }
+    .ReactTabs {
+        padding-right:0;
+    }
+    .ReactTabs__TabList {
+        flex-direction: row;
+        flex-wrap:wrap;
+        justify-content: center;
+        width:100%;
+        padding-bottom:30px;
+    }
+    li.ReactTabs__Tab {
+        background-color:transparent;
+        font-size:17px;
+        font-weight:600;
+        font-weight:400;
+        padding-left:0;
+        margin-bottom:0;
+        margin-left:10px;
+        margin-right:10px;
+    }
+    li.ReactTabs__Tab:nth-child(1) {
+        padding-top:7px;
+    }
+    .react-tabs [role=tablist] {
+        margin:0 0 20px 0
+    }
+}

@@ -40,13 +40,13 @@
         justify-content:center;
         position: relative;
         height:auto;
-        background-color: transparent;
-        padding:110px 5px 10px 5px;
+        background-color: RGBA(255,255,255,.3);
+        padding:110px 5px 23px 5px;
     }
     .navbar-link {
         font-size:18px;
         font-weight:400;
-        margin:0 9px 10px 9px;
+        margin:0 9px 15px 9px;
     }
     .navbar-logo {
         position: absolute;

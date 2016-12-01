@@ -77,3 +77,84 @@
     color:RGBA(0, 166, 81, 1);
     font-weight:500;
 }
+
+@media (max-width:768px) {
+    /* Panel Title */
+    .panel-title {
+        font-size:24px;
+        line-height:1.45;
+        text-align:center;
+        margin-bottom:9px;    
+    }
+
+    /* Panel Subtitle */
+    .panel-subtitle {
+        color:RGBA(0,0,0,.9);
+        font-size:17px;
+        line-height:1.5;
+        margin-bottom:8px;
+    }
+
+    /* Panel Description */
+    .panel-description {
+        color:RGBA(0,0,0,.9);
+        font-size:17px;
+        font-weight:400;
+        line-height:1.9;
+        text-align:center;
+        padding-left:8px;
+        padding-right:8px;
+        margin-bottom:12px;
+    }
+
+    /* Panel List */
+    .panel-list {
+        display:flex;
+        flex-direction:column;
+        list-style-type: none;
+        margin-top:20px;
+    }
+
+    /* List Item */
+    .list-item {
+        font-size:17px;
+        line-height:1.8;
+        text-align:center;
+        padding-left:10px;
+        padding-right:10px;
+        margin-bottom:10px;
+        margin-left: 0;
+    }
+
+    /* Panel Note */
+    .panel-note {
+        display:flex;
+        flex-direction:column;
+    }
+
+    /* Note Title */
+    .note-title {
+        color: RGBA(0,0,0,.9);
+        font-size:18px;
+        font-weight:500;
+        margin-top:42px;
+        margin-bottom:14px;
+    }
+
+    /* Note Description */
+    .note-description {
+        color: RGBA(0,0,0,.9);
+        font-size:17px;
+        font-weight:400;
+    }
+
+    /* Note Link */
+    .note-link {
+        color:RGBA(0, 166, 81, .9);
+        font-weight:500;
+    }
+    .note-link:hover {
+        color:RGBA(0, 166, 81, 1);
+        font-weight:500;
+    }
+}
