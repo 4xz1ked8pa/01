@@ -72,6 +72,7 @@ export const PanelImage = createClass({
         return (
             <div className='panel-image'>
                 <img src={this.props.image} />
+                <div className='image-overlay'></div>
             </div>
         );
     }

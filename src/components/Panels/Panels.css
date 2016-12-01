@@ -80,8 +80,29 @@
 
 /* Panel Image */
 .panel-image {
+    position: relative;
     width:100%;
+    margin-top:37px;
 }
+.panel-image img {
+    display: flex;
+    flex-shrink: 0;
+    width:100%;
+    border-radius:2px;
+    box-shadow:0 1px 3px RGBA(0,0,0,.1);
+}
+.panel-image .image-overlay {
+    position: absolute;
+    top:0; left:0;
+    width:100%;
+    height:100%;
+    background-color:RGBA(0,0,0,.06);
+    transition:.2s all ease-in-out;
+}
+.panel-image .image-overlay:hover {
+    background-color:RGBA(0,0,0,.02);
+}
+
 
 @media (max-width:768px) {
     /* Panel Title */
@@ -111,7 +132,10 @@
         padding-right:8px;
         margin-bottom:12px;
     }
-
+    .button {
+        max-width:90%;
+        margin:0 auto;
+    }
     /* Panel List */
     .panel-list {
         display:flex;
@@ -135,31 +159,5 @@
     .panel-note {
         display:flex;
         flex-direction:column;
-    }
-
-    /* Note Title */
-    .note-title {
-        color: RGBA(0,0,0,.9);
-        font-size:18px;
-        font-weight:500;
-        margin-top:42px;
-        margin-bottom:14px;
-    }
-
-    /* Note Description */
-    .note-description {
-        color: RGBA(0,0,0,.9);
-        font-size:17px;
-        font-weight:400;
-    }
-
-    /* Note Link */
-    .note-link {
-        color:RGBA(0, 166, 81, .9);
-        font-weight:500;
-    }
-    .note-link:hover {
-        color:RGBA(0, 166, 81, 1);
-        font-weight:500;
     }
 }
