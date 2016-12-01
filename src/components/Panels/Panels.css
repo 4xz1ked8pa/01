@@ -1,0 +1,78 @@
+/* Panel Title */
+.panel-title {
+    color:RGBA(0,0,0,.9);
+    font-size:23px;
+    font-weight:500;
+    margin-bottom:9px;    
+}
+
+/* Panel Subtitle */
+.panel-subtitle {
+    color:RGBA(0,0,0,.9);
+    font-size:17px;
+    font-weight:400;
+    line-height:1.9;
+    margin-bottom:12px;
+}
+
+/* Panel Description */
+.panel-description {
+    color:RGBA(0,0,0,.9);
+    font-size:17px;
+    font-weight:400;
+    line-height:1.9;
+    margin-bottom:12px;
+}
+
+/* Panel List */
+.panel-list {
+    display:flex;
+    flex-direction:column;
+    list-style-type: disc;
+    list-style-position: outside;
+    list-style-image: none;
+    margin-bottom:20px;
+}
+
+/* List Item */
+.list-item {
+    color:RGBA(0,0,0,.9);
+    font-size:17px;
+    font-weight:400;
+    font-style:italic;
+    line-height:1.8;
+    margin-bottom:10px;
+    margin-left: 1em;
+}
+
+/* Panel Note */
+.panel-note {
+    display:flex;
+    flex-direction:column;
+}
+
+/* Note Title */
+.note-title {
+    color: RGBA(0,0,0,.9);
+    font-size:18px;
+    font-weight:500;
+    margin-top:42px;
+    margin-bottom:14px;
+}
+
+/* Note Description */
+.note-description {
+    color: RGBA(0,0,0,.9);
+    font-size:17px;
+    font-weight:400;
+}
+
+/* Note Link */
+.note-link {
+    color:RGBA(0, 166, 81, .9);
+    font-weight:500;
+}
+.note-link:hover {
+    color:RGBA(0, 166, 81, 1);
+    font-weight:500;
+}

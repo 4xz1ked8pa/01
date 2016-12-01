@@ -1,0 +1,25 @@
+/* Button */
+.button {
+    display:flex;
+    align-self:flex-start;
+    height:40px;
+    background:RGBA(0, 166, 81, .9);
+    color:white;
+    font-weight:500;
+    line-height:40px;
+    text-decoration:none;
+    padding-left:14px;
+    padding-right:14px;
+    border-radius:2px;
+    transition:.2s all ease-in-out;
+}
+
+/* Button Action */
+.button.button-passive {
+    background:RGBA(0, 166, 81, .75);
+    box-shadow:0 1px 3px RGBA(0, 166, 81, .3);
+}
+.button.button-passive:hover {
+    background:RGBA(0, 166, 81, .9);
+    box-shadow:0 1px 3px RGBA(0, 166, 81, .5);
+}

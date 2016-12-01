@@ -10,12 +10,18 @@
 /* React Tabs */
 .ReactTabs {
     display: flex;
-    flex-shrink: 0;
-    width:180px;
 }
 
 /* React Tab List */
 .ReactTabs__TabList {
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: column;
+    width:160px;
+}
+
+/* React Tab Panel */
+.ReactTabs__TabPanel {
     display: flex;
     flex-direction: column;
     width:100%;

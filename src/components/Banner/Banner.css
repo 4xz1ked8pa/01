@@ -10,7 +10,7 @@
     background-size:cover;
     color:white;
     border-radius:1px;
-    margin-bottom:65px;
+    margin-bottom:55px;
     box-shadow:0 1px 4px RGBA(0,0,0,.29);
 }
 
@@ -27,7 +27,7 @@
 /* Banner Description */
 .banner-description {
     position: relative;
-    font-size:23px;
+    font-size:21px;
     font-weight:400;
     text-align: center;
     text-shadow:0 1px 3px RGBA(0,0,0,.3);

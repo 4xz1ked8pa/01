@@ -14,7 +14,7 @@ html body #root .App {
     max-width: var(--row-width);
     min-height:100%;
     padding-top:38px;
-    padding-bottom:200px;
+    padding-bottom:180px;
     margin:0 auto;
 }
 *  {
