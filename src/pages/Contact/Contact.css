@@ -1,0 +1,21 @@
+
+/* contact side */
+.contact-side {
+    display: flex;
+    flex-shrink: 0;
+    width:200px;
+}
+.contact-title {
+
+}
+.contact-subtitle {
+
+}
+.contact-geo {
+
+}
+
+/* contact send */
+.contact-send {
+
+}

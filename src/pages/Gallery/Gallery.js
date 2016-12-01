@@ -14,7 +14,8 @@ const Gallery = createClass({
             <main id='gallery'>
                 <Navbar />
                 <div className='section'>
-                    <Banner banner={{image: 'https://images.unsplash.com/uploads/141143339879512fe9b0d/f72e2c85?dpr=2&auto=format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=', title: 'PROMOTING AGRICULTURE PROJECTS', description: 'Improve your environmental impact, an herb at a time'}} />
+                    <Banner banner={{image: 'https://images.unsplash.com/photo-1447767819330-4adf93b62dfe?dpr=2&auto=format&fit=crop&w=767&h=431&q=80&cs=tinysrgb&crop=', title: 'PROMOTING AGRICULTURE PROJECTS', description: 'Improve your environmental impact, an herb at a time'}} />
+                    <Paragraph paragraph='We promote your garden and efforts towards bettering your community. We create personalized photos and video clips to create social media exposure. This way, your actions will not go unnoticed.' />
                     <div className='partners-list'>
                         <div className='partner'>
                             <div className='partner-wrap'>

@@ -14,6 +14,7 @@ import Services from './pages/Services/Services';
 import Gardens from './pages/Gardens/Gardens';
 import Partners from './pages/Partners/Partners';
 import Gallery from './pages/Gallery/Gallery';
+import Contact from './pages/Contact/Contact';
 
 ReactDOM.render(
   <Router history={browserHistory}>
@@ -24,6 +25,7 @@ ReactDOM.render(
       <Route path='/gardens' component={Gardens} />
       <Route path='/partners' component={Partners} />
       <Route path='/gallery' component={Gallery} />
+      <Route path='/contact' component={Contact} />
     </Route>
   </Router>,
   document.getElementById('root')
