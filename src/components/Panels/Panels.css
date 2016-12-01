@@ -78,6 +78,11 @@
     font-weight:500;
 }
 
+/* Panel Image */
+.panel-image {
+    width:100%;
+}
+
 @media (max-width:768px) {
     /* Panel Title */
     .panel-title {

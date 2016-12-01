@@ -66,3 +66,14 @@ export const PanelNote = createClass({
     }
 });
 
+/* Panel Image */
+export const PanelImage = createClass({
+    render() {
+        return (
+            <div className='panel-image'>
+                <img src={this.props.image} />
+            </div>
+        );
+    }
+});
+

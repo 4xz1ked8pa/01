@@ -13,6 +13,7 @@ import './assets/css/fonts.css';
 import Home from './pages/Home/Home';
 import About from './pages/About/About';
 import Services from './pages/Services/Services';
+import Gardens from './pages/Gardens/Gardens';
 
 ReactDOM.render(
   <Router history={browserHistory}>
@@ -20,6 +21,7 @@ ReactDOM.render(
       <IndexRoute component={Home} />
       <Route path='/about' component={About} />
       <Route path='/services' component={Services} />
+      <Route path='/gardens' component={Gardens} />
     </Route>
   </Router>,
   document.getElementById('root')

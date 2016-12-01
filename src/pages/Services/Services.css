@@ -16,6 +16,9 @@
     align-items:center;
     height:31px;
     line-height:31px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 /* Table Title */
@@ -80,4 +83,31 @@
 .section-total {
     background-color:RGBA(0,0,0,.04);
     font-weight:500;
+}
+
+@media (max-width:768px) {
+    .requirements-table {
+        border-left:none;
+        border-right:none;
+        border-radius:0;
+    }
+    .section-header {
+        font-size:12px;
+    }
+    .table-sections {
+        flex-direction: column;
+    }
+    .table-section {
+        width:100%;
+        margin-bottom:20px;
+    }
+    .table-section:last-child {
+        margin-bottom:0;
+    }
+    .section-values .table-cell {
+        font-size:11px;
+    }
+    .section-header .table-cell {
+        max-width:33%;
+    }
 }

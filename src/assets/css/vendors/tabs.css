@@ -90,6 +90,6 @@ li.ReactTabs__Tab ReactTabs__Tab--selected {
         padding-top:7px;
     }
     .react-tabs [role=tablist] {
-        margin:0 0 20px 0
+        margin:0 0 25px 0
     }
 }

@@ -69,7 +69,7 @@
     .footer-items {
         flex-direction:column;
         height:auto;
-        padding:20px 15px;
+        padding:26px 15px 24px 15px;
     }
     .page-links {
         flex-direction:row;
