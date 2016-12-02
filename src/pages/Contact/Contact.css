@@ -107,7 +107,7 @@ input, select {
     justify-content: flex-end;
     padding-top:10px;
 }
-.button {
+#contact .button {
     display: flex;
     align-self:flex-end;
     justify-content: center;
