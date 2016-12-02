@@ -69,7 +69,6 @@ input, select {
 /* input cmpnts */
 .input-cmpnts {
     max-width:600px;
-    background-color:RGBA(0,0,0,.02);
     margin:10px auto 0 auto;
 }
 /* input text */
@@ -80,7 +79,7 @@ input, select {
     color:black;
     font-size:17px;
     font-weight:400;
-    background-color:transparent;
+    background-color:RGBA(243, 243, 243, 1.00);
     padding:0 10px;
     border:none;
     margin:0 auto;
@@ -93,7 +92,7 @@ input, select {
     color:black;
     font-size:17px;
     font-weight:400;
-    background-color:transparent;;
+    background-color:RGBA(243, 243, 243, 1.00);
     border:none;
     padding:0 10px;
     line-height: 48px;
@@ -102,12 +101,38 @@ input, select {
 }
 .options {
     display: flex;
-    width:100%;
-    background-color:RGBA(237, 237, 237, 1.00);
+    margin:10px auto 0 auto;
     justify-content: flex-end;
-    padding-top:15px;
+    padding-top:10px;
 }
 .button {
+    display: flex;
+    align-self:flex-end;
+    justify-content: center;
     text-align: center;
     cursor:pointer;
+}
+
+@media (max-width:768px) {
+    .contact-details {
+        flex-direction: column;
+    }
+    .contact-side {
+        text-align: center;
+        justify-content: center;
+        width:100%;
+        margin-top:20px;
+        margin-bottom:40px;
+    }
+    .contact-geo {
+        width:100%;
+        margin-top:20px;
+    }
+    .options {
+        justify-content: center;
+        width:100%;
+    }
+    .button {
+        width:100%;
+    }
 }
