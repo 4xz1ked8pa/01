@@ -35,7 +35,13 @@ const Contact = createClass({
                                     <option>Request information</option>
                                 </select>
                             </label>
-                            <input placeholder='' />
+                            <input className='input-box' placeholder='Full name' />
+                            <input className='input-box' placeholder='Organization ' />
+                            <input className='input-box' placeholder='Telephone ' />
+                            <input className='input-box' placeholder='Email ' />
+                            <textarea className='input-area' placeholder='Organization '>
+
+                            </textarea>
                         </form>
                     </div>
                 </div>
