@@ -2,14 +2,21 @@
 /* contact side */
 .contact-side {
     display: flex;
+    flex-direction: column;
     flex-shrink: 0;
     width:200px;
 }
-.contact-title {
-
+.side-title {
+    color:black;
+    font-size:22px;
+    font-weight:500;
+    margin-bottom:14px;
 }
-.contact-subtitle {
-
+.side-subtitle {
+    color:black;
+    font-size:16px;
+    font-weight:400;
+    margin-bottom:17px;
 }
 .contact-geo {
 
