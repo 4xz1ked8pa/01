@@ -65,15 +65,49 @@ input, select {
     font-weight:500;
 	outline:none;
 }
+
+/* input cmpnts */
+.input-cmpnts {
+    max-width:600px;
+    background-color:RGBA(0,0,0,.02);
+    margin:10px auto 0 auto;
+}
 /* input text */
 .input-box {
-    width:500px;
+    width:100%;
+    height:48px;
+    line-height: 48px;
+    color:black;
+    font-size:17px;
+    font-weight:400;
+    background-color:transparent;
+    padding:0 10px;
+    border:none;
     margin:0 auto;
 }
 
 /* input bigbox */
 .input-area {
-    width:500px;
+    width:100%;
     height:150px;
+    color:black;
+    font-size:17px;
+    font-weight:400;
+    background-color:transparent;;
+    border:none;
+    padding:0 10px;
+    line-height: 48px;
     margin:0 auto;
+    resize: none;
+}
+.options {
+    display: flex;
+    width:100%;
+    background-color:RGBA(237, 237, 237, 1.00);
+    justify-content: flex-end;
+    padding-top:15px;
+}
+.button {
+    text-align: center;
+    cursor:pointer;
 }

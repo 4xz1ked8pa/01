@@ -7,6 +7,7 @@ import Footer from '../../components/Footer/Footer';
 import Paragraph from '../../components/Paragraph/Paragraph';
 import Items from '../../components/Items/Items';
 import Header from '../../components/Header/Header';
+import {ButtonPassive} from '../../components/Buttons/Buttons';
 
 const Contact = createClass({
     render() {
@@ -35,13 +36,18 @@ const Contact = createClass({
                                     <option>Request information</option>
                                 </select>
                             </label>
-                            <input className='input-box' placeholder='Full name' />
-                            <input className='input-box' placeholder='Organization ' />
-                            <input className='input-box' placeholder='Telephone ' />
-                            <input className='input-box' placeholder='Email ' />
-                            <textarea className='input-area' placeholder='Organization '>
+                            <div className='input-cmpnts'>
+                                <input className='input-box' placeholder='Full name' />
+                                <input className='input-box' placeholder='Organization ' />
+                                <input className='input-box' placeholder='Telephone ' />
+                                <input className='input-box' placeholder='Email ' />
+                                <textarea className='input-area' placeholder='Message'>
 
-                            </textarea>
+                                </textarea>
+                                <div className='options'>
+                                    <ButtonPassive label='SEND MESSAGE' />
+                                </div>
+                            </div>
                         </form>
                     </div>
                 </div>
