@@ -83,6 +83,7 @@ input, select {
     padding:0 10px;
     border:none;
     margin:0 auto;
+    outline:none;
 }
 
 /* input bigbox */
@@ -98,6 +99,7 @@ input, select {
     line-height: 48px;
     margin:0 auto;
     resize: none;
+    outline:none;
 }
 .options {
     display: flex;
