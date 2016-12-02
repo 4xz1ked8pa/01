@@ -67,12 +67,13 @@ input, select {
 }
 /* input text */
 .input-box {
-    width:200px;
+    width:500px;
     margin:0 auto;
 }
 
 /* input bigbox */
 .input-area {
-    width:200px;
+    width:500px;
     height:150px;
+    margin:0 auto;
 }
