@@ -20,6 +20,8 @@ const Footer = createClass({
                     <div className='social-links'>
                         <a href='https://www.facebook.com/microhabitatmtl/' target='_blank' className='social-link fa fa-facebook'></a>
                         <a href='https://www.instagram.com/microhabitatmtl/' target='_blank' className='social-link fa fa-instagram'></a>
+                        <a href='https://www.youtube.com/channel/UC2b2oLw3wSmH5azWjALI7Ig' target='_blank' className='social-link fa fa-youtube'></a>
+                        <a href='https://twitter.com/microhabitatmtl' target='_blank' className='social-link fa fa-twitter'></a>
                     </div>
                 </div>
             </div>

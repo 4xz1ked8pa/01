@@ -6,14 +6,10 @@ const Footer = createClass({
     render() {
         return (
             <div className='footer-home'>
-                <Link to={`/about`} className='footer-link'>About</Link>
-                <Link to={`/clients`} className='footer-link'>Clients</Link>
-                <Link to={`/services`} className='footer-link'>Services</Link>
-                <Link to={`/gallery`} className='footer-link'>Gallery</Link>
-                <Link to={`/shop`} className='footer-link'>Shop</Link>
-                <Link to={`/partners`} className='footer-link'>Partners</Link>
-                <Link to={`/contact`} className='footer-link'>Contact</Link>
-                <Link to={`/fr/`} className='footer-link'>Français</Link>
+                <a href='https://www.facebook.com/microhabitatmtl/' target='_blank' className='footer-link fa fa-facebook'></a>
+                <a  href='https://www.instagram.com/microhabitatmtl/' target='_blank' className='footer-link fa fa-instagram'></a>
+                <a href='https://www.youtube.com/channel/UC2b2oLw3wSmH5azWjALI7Ig' target='_blank' className='footer-link fa fa-youtube'></a>
+                <a href='https://twitter.com/microhabitatmtl' target='_blank' className='footer-link fa fa-twitter'></a>
             </div>
         );
     }

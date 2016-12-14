@@ -57,7 +57,7 @@ const Partners = createClass({
                         {
                             partners.map((partner) => {
                                 return (
-                                    <a className='partner' href={partner.link}>
+                                    <a className='partner' href={partner.link} target='_blank'>
                                         <div className='partner-image' style={{backgroundImage: `url(${partner.image})`}}></div>
                                         <h1 className='partner-title'>{partner.title}</h1>
                                         <h3 className='partner-description'>{partner.description}</h3>
