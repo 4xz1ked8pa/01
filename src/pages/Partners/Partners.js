@@ -5,7 +5,6 @@ import Navbar from '../../components/Navbar/Navbar';
 import Banner from '../../components/Banner/Banner';
 import Footer from '../../components/Footer/Footer';
 import Paragraph from '../../components/Paragraph/Paragraph';
-import Items from '../../components/Items/Items';
 import Header from '../../components/Header/Header';
 
 let partners = [
@@ -38,6 +37,12 @@ let partners = [
         title: 'PUPIK',
         description: 'Mycoculture',
         link: 'http://www.pupik.ca/index.html/'
+    },
+    {
+        image: 'https://i.imgsafe.org/0de6008820.png',
+        title: 'POC POC',
+        description: 'Chickens in your backyard',
+        link: 'https://www.poc-poc.com/'
     }
 ];
 
