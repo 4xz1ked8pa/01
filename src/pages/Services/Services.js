@@ -110,16 +110,11 @@ const Services = createClass({
                                 <ul className='table-sections'>
                                     <li className='table-section'>
                                         <header className='section-header'>
-                                            <div className='table-cell'>PRODUCT</div>
+                                            <div className='table-cell'>HERBS</div>
                                             <div className='table-cell'>QTY (BOUQUET)</div>
                                             <div className='table-cell'>ECONOMIES</div>   
                                         </header>
                                         <ul className='section-values'>
-                                            <li className='section-row'>
-                                                <div className='table-cell'>HERBS</div>
-                                                <div className='table-cell'>221</div>
-                                                <div className='table-cell'>442</div>
-                                            </li>
                                             <li className='section-row'>
                                                 <div className='table-cell'>BASIL</div>
                                                 <div className='table-cell'>38</div>
@@ -175,6 +170,11 @@ const Services = createClass({
                                                 <div className='table-cell'>22</div>
                                                 <div className='table-cell'>44</div>
                                             </li>
+                                            <li className='section-row'>
+                                                <div className='table-cell'>HERBS</div>
+                                                <div className='table-cell'>221</div>
+                                                <div className='table-cell'>442</div>
+                                            </li>
                                         </ul>
                                     </li>
                                     <li className='table-section'>
@@ -184,11 +184,6 @@ const Services = createClass({
                                             <div className='table-cell'>ECONOMIES ($)</div>   
                                         </header>
                                         <ul className='section-values'>
-                                            <li className='section-row'>
-                                                <div className='table-cell'>VEGETABLES</div>
-                                                <div className='table-cell'></div>
-                                                <div className='table-cell'>594.3</div>
-                                            </li>
                                             <li className='section-row'>
                                                 <div className='table-cell'>LETTUCE</div>
                                                 <div className='table-cell'>14 HEADS</div>
@@ -238,6 +233,11 @@ const Services = createClass({
                                                 <div className='table-cell'></div>
                                                 <div className='table-cell'></div>
                                                 <div className='table-cell'></div>
+                                            </li>
+                                            <li className='section-row'>
+                                                <div className='table-cell'>VEGETABLES</div>
+                                                <div className='table-cell'></div>
+                                                <div className='table-cell'>594.3</div>
                                             </li>
                                             <li className='section-row section-total'>
                                                 <div className='table-cell'>TOTAL ECONOMIES</div>

@@ -18,8 +18,8 @@ const Footer = createClass({
                         <Link to={`/fr/`} className='page-link'>Français</Link>
                     </div>
                     <div className='social-links'>
-                        <a href='https://www.facebook.com/microhabitatmtl/' className='social-link fa fa-facebook'></a>
-                        <a href='https://www.instagram.com/microhabitatmtl/' className='social-link fa fa-instagram'></a>
+                        <a href='https://www.facebook.com/microhabitatmtl/' target='_blank' className='social-link fa fa-facebook'></a>
+                        <a href='https://www.instagram.com/microhabitatmtl/' target='_blank' className='social-link fa fa-instagram'></a>
                     </div>
                 </div>
             </div>
